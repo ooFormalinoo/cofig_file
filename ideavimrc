@@ -1,0 +1,24 @@
+set surround
+inoremap jj <Esc>
+nnoremap y "+y
+vnoremap y "+y
+nnoremap p "+p
+vnoremap p "+p
+nnoremap d "+d
+vnoremap d "+d
+
+noremap E $
+noremap B ^
+nnoremap <Space>j J
+vnoremap <Space>j J
+nnoremap K :action NextTab<CR>
+vnoremap K :action NextTab<CR>
+nnoremap J :action PreviousTab<CR>
+vnoremap J :action PreviousTab<CR>
+nnoremap <Space>f :action Find<CR>
+vnoremap <Space>f :action Find<CR>
+nnoremap <Space>h :action Replace<CR>
+vnoremap <Space>h :action Replace<CR>
+nnoremap <Space>r :action RunClass<CR>
+nnoremap <Space>s :action RenameElement<CR>
+nnoremap <s-cr> :action ReformatCode<CR>
